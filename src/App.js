@@ -1,5 +1,7 @@
 import { useState } from 'react';
-import { Header, Navigation, AboutMe, Portfolio, ContactMe, Footer, Wrapper} from "./components"
+import {Navigation, AboutMe, Portfolio, ContactMe, Footer, Wrapper} from "./components"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./styles/global.css"
 
 function App() {
 
@@ -9,7 +11,6 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
       <Navigation 
       setShowAboutMe={setShowAboutMe}
       setShowPortfolio={setShowPortfolio}
