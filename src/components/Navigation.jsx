@@ -11,11 +11,11 @@ function Navigation({ setShowAboutMe, setShowPortfolio, setShowContactMe }) {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand>My Portfolio</Navbar.Brand>
+          <Navbar.Brand>Tess Eir</Navbar.Brand>
           <Nav className="me-auto">
-          <Button variant="light" onClick={() => [setShowAboutMe(true),  setShowPortfolio(false), setShowContactMe(false)]}>AboutMe Me</Button>
-          <Button variant="light" onClick={() => [setShowAboutMe(false),  setShowPortfolio(true), setShowContactMe(false)]}>Portfolio</Button>
-          <Button variant="light" onClick={() => [setShowAboutMe(false),  setShowPortfolio(false), setShowContactMe(true)]}>Contact Me</Button>
+          <Button variant="secondary" onClick={() => [setShowAboutMe(true),  setShowPortfolio(false), setShowContactMe(false)]}>About Me</Button>
+          <Button variant="secondary" onClick={() => [setShowAboutMe(false),  setShowPortfolio(true), setShowContactMe(false)]}>Portfolio</Button>
+          <Button variant="secondary" onClick={() => [setShowAboutMe(false),  setShowPortfolio(false), setShowContactMe(true)]}>Contact Me</Button>
           </Nav>
         </Container>
       </Navbar>
