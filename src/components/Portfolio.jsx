@@ -4,11 +4,11 @@ function Portfolio() {
   return (
     <div className="about-me">
 
-      <h1>My Works</h1>
+      <h1 className="mx-auto text-center">My Works</h1>
 
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col d-grid gap-3">
             
             <a href="https://github.com/tesseir/e-commerce"
               target="_blank"><img src="./images/e-commerce.png"/></a>
@@ -20,7 +20,7 @@ function Portfolio() {
               target="_blank"><img src="./images/project-tracker.png"/></a>
 
           </div>
-          <div class="col">
+          <div class="col d-grid gap-3">
 
             <a href="https://github.com/tesseir/readme-generator"
               target="_blank"><img src="./images/readme-generator.png"/></a>

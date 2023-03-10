@@ -12,7 +12,7 @@ function Navigation({ setShowAboutMe, setShowPortfolio, setShowContactMe }) {
       <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand>Tess Eir</Navbar.Brand>
-          <Nav className="me-auto">
+          <Nav className="me-auto gap-3">
           <Button variant="secondary" onClick={() => [setShowAboutMe(true),  setShowPortfolio(false), setShowContactMe(false)]}>About Me</Button>
           <Button variant="secondary" onClick={() => [setShowAboutMe(false),  setShowPortfolio(true), setShowContactMe(false)]}>Portfolio</Button>
           <Button variant="secondary" onClick={() => [setShowAboutMe(false),  setShowPortfolio(false), setShowContactMe(true)]}>Contact Me</Button>
